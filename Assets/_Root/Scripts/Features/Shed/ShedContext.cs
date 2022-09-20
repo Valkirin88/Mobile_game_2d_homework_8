@@ -10,8 +10,8 @@ namespace Features.Shed
 {
     internal class ShedContext : BaseContext
     {
-        private static readonly ResourcePath _viewPath = new("Prefabs/Shed/ShedView");
-        private static readonly ResourcePath _dataSourcePath = new("Configs/Shed/UpgradeItemConfigDataSource");
+        private static readonly ResourcePath _viewPath = new ResourcePath("Prefabs/Shed/ShedView");
+        private static readonly ResourcePath _dataSourcePath = new ResourcePath("Configs/Shed/UpgradeItemConfigDataSource");
 
 
         public ShedContext(Transform placeForUi, ProfilePlayer profilePlayer)
