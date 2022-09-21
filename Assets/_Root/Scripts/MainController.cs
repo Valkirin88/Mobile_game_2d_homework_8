@@ -6,6 +6,7 @@ using Features.Shed;
 using Features.Fight;
 using Features.Rewards;
 
+
 internal class MainController : BaseController
 {
     private readonly Transform _placeForUi;

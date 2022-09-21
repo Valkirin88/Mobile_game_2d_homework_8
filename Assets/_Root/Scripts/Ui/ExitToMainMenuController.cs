@@ -2,7 +2,7 @@ using Profile;
 using Tool;
 using UnityEngine;
 
-namespace Features.Fight
+namespace Ui
 {
     internal class ExitToMainMenuController : BaseController
     {

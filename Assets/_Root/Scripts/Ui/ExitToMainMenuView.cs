@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Features.Fight
+namespace Ui
 {
     internal class ExitToMainMenuView : MonoBehaviour
     {
